@@ -3,6 +3,9 @@
 body {
     height:100vh;
     font-family: Roboto, sans-serif;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
 }
 
 a {
