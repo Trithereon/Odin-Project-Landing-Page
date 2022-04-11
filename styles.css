@@ -26,14 +26,6 @@ button, .call-to-action {
     background-color:#3882F6;
 }
 
-.section2.title {
-    font-size:36px;
-    font-weight:900;
-    color:#1F2937;
-    display:flex;
-    justify-content:center;
-}
-
 .section3 {
     background-color: #E5E7EB;
 }
@@ -63,7 +55,16 @@ button, .call-to-action {
 }
 .section2 {
     display:flex;
-    justify-content:space-around;
+    justify-content:center;
     gap:40px;
+    margin-bottom:50px;
 }
 
+.section2.title {
+    font-size:36px;
+    font-weight:900;
+    color:#1F2937;
+    display:flex;
+    justify-content:center;
+    margin:50px;
+}
