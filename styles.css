@@ -52,13 +52,6 @@ ul {
     color:#F9FAF8;
 }
 
-
-.header.section1 {
-    background-color:#1F2937;
-    display:flex;
-    flex-direction:column;
-}
-
 .section1 {
     background-color:#1F2937;
     display:flex;
