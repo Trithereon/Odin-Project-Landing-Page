@@ -3,9 +3,6 @@
 body {
     height:100vh;
     font-family: Roboto, sans-serif;
-    display:flex;
-    flex-direction:column;
-    justify-content:space-between;
     margin:0;
     padding:0;
 }
@@ -25,7 +22,7 @@ ul {
 
 .header {
     display:flex;
-    justify-content: space-between;
+    gap:100px;
 }
 
 .header .logo {
@@ -84,6 +81,10 @@ button {
     font-weight:bolder;
 }
 
+.call-to-action button {
+    border-color:#F9FAF8;
+}
+
 .img-card {
     display:flex;
     flex-direction:column;
@@ -119,9 +120,7 @@ button {
     margin:50px;
 }
 
-.call-to-action button {
-    border-color:#F9FAF8;
-}
+
 
 .section3 {
     background-color: #E5E7EB;
