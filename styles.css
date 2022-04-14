@@ -20,14 +20,25 @@ ul {
     gap:16px;
 }
 
-.header {
-    display:flex;
-    gap:100px;
-}
-
 .header .logo {
     padding: 20px 0;
     display:flex;
+}
+
+.header .logo-text {
+    font-size:24px;
+    font-weight:bold;
+    color:#F9FAF8;
+    display:flex;
+    align-items:center;
+    padding:0 20px 0 40px;
+}
+
+.header {
+    display:flex;
+    gap:100px;
+    justify-content:space-between;
+    background-color:#1F2937;
 }
 
 .header a, .hero .subtext{
@@ -41,14 +52,6 @@ ul {
     color:#F9FAF8;
 }
 
-.header .logo-text {
-    font-size:24px;
-    font-weight:bold;
-    color:#F9FAF8;
-    display:flex;
-    align-items:flex-end;
-    padding:0 20px 0 0;
-}
 
 .header.section1 {
     background-color:#1F2937;
@@ -57,6 +60,7 @@ ul {
 }
 
 .section1 {
+    background-color:#1F2937;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -70,6 +74,18 @@ ul {
 
 .call-to-action {
     background-color:#3882F6;
+    color:#F9FAF8;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.call-to-action text title {
+    font-weight:700;
+}
+
+.call-to-action button {
+    border-color:#F9FAF8;
 }
 
 button {
@@ -81,9 +97,7 @@ button {
     font-weight:bolder;
 }
 
-.call-to-action button {
-    border-color:#F9FAF8;
-}
+
 
 .img-card {
     display:flex;
