@@ -57,7 +57,7 @@ ul {
 .section1 {
     background-color:#1F2937;
     display:flex;
-    justify-content:space-between;
+    justify-content:center;
     align-items:center;
     gap:20px;
 }
