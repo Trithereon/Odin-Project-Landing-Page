@@ -71,24 +71,6 @@ ul {
     padding:40px;
 }
 
-
-
-.call-to-action {
-    background-color:#3882F6;
-    color:#F9FAF8;
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-}
-
-.call-to-action .text .title {
-    font-weight:700;
-}
-
-.call-to-action button {
-    border-color:#F9FAF8;
-}
-
 button {
     width:100px;
     padding:5px 0px;
@@ -97,8 +79,6 @@ button {
     color:#F9FAF8;
     font-weight:bolder;
 }
-
-
 
 .img-card {
     display:flex;
@@ -162,8 +142,37 @@ button {
     justify-content:flex-end;
 }
 
+.section4 {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:100px;
+}
+
+.call-to-action {
+    background-color:#3882F6;
+    color:#F9FAF8;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:100px;
+    padding:50px 100px;
+    border-radius:12px;
+}
+
+.call-to-action .text .title {
+    font-weight:700;
+}
+
+.call-to-action button {
+    border-color:#F9FAF8;
+}
+
 .footer {
     background-color:#1F2937;
+    text-align:center;
+    color:#F9FAF8;
+    padding:20px;
 }
 
 
