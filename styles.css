@@ -9,6 +9,7 @@ body {
 
 a {
     text-decoration:none;
+    color:#F9FAF8;
 }
 
 ul {
@@ -17,7 +18,7 @@ ul {
     list-style:none;
     margin:0;
     padding:40px;
-    gap:16px;
+    gap:20px;
 }
 
 .header .logo {
@@ -28,7 +29,7 @@ ul {
 .header .logo-text {
     font-size:24px;
     font-weight:bold;
-    color:#F9FAF8;
+    color:#E5E7EB;
     display:flex;
     align-items:center;
     padding:0 20px 0 40px;
@@ -44,6 +45,7 @@ ul {
 .header a, .hero .subtext{
     font-size:18px;
     color:#E5E7EB;
+    padding:12px 0;
 }
 
 .hero .title {
@@ -96,6 +98,8 @@ button {
 .img-card img {
     border: 3px solid rgba(0, 0, 255, 0.719);
     border-radius: 18px;
+    border-style:solid;
+    background-color:rgba(0, 0, 255, 0.719); /*This is to prevent whitespace between border and image, which can appear when resizing window.*/ 
 }
 
 .section2 {
